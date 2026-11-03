@@ -94,3 +94,10 @@ h2{font-size:clamp(34px,4vw,57px);line-height:1.5;font-weight:800;letter-spacing
 .ai-difference>p:last-child{font-size:17px;line-height:2;color:#c9d5ed;margin:0}
 @media(max-width:760px){.ai-capabilities{gap:10px;margin:32px 0 45px}.ai-capabilities span{min-height:47px;padding:10px 15px;font-size:15px}.ai-difference{padding-top:35px}.ai-question{font-size:18px;margin-bottom:19px}.ai-difference h3{font-size:31px;line-height:1.5}.ai-difference>p:last-child{font-size:15px;line-height:1.9}}
 @media(max-width:360px){.ai-difference h3{font-size:27px}.ai-capabilities span{font-size:14px;padding-inline:13px}}
+
+.rally{background:radial-gradient(ellipse at 75% 53%,#234cae88,transparent 43%),radial-gradient(ellipse at 90% 85%,#512f9f44,transparent 55%),#050821}
+.rally-art{object-fit:contain;object-position:85% bottom;mask-image:linear-gradient(#000 0%,#000 88%,transparent 100%)}
+.rally-shade{background:linear-gradient(90deg,#050821 0%,#050821ad 37%,#05082100 72%)}
+@media(max-width:760px){.rally-art{object-position:85% bottom;opacity:.8}.rally-shade{background:linear-gradient(90deg,#050821e8 0%,#050821a6 53%,#05082122 100%),linear-gradient(0deg,#050821ad,transparent 55%)}}
+
+@media(max-width:760px){.rally-art{left:auto;right:0;top:0;width:66%;height:65%;object-position:right top;opacity:.9;mask-image:linear-gradient(#000 0%,#000 70%,transparent 100%)}}
